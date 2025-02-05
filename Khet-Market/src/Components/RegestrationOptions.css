@@ -1,0 +1,24 @@
+/* src/Components/RegistrationOptions/RegistrationOptions.css */
+.registration-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-option {
+    background-color: #3e68ff;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
+    transition: background-color 0.3s;
+}
+
+.registration-option:hover {
+    background-color: #2e58cc;
+}

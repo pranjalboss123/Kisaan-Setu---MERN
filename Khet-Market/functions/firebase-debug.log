@@ -1,0 +1,460 @@
+[debug] [2024-12-23T12:36:52.475Z] ----------------------------------------------------------------------
+[debug] [2024-12-23T12:36:52.493Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-23T12:36:52.497Z] CLI Version:   13.29.1
+[debug] [2024-12-23T12:36:52.498Z] Platform:      win32
+[debug] [2024-12-23T12:36:52.499Z] Node Version:  v20.8.0
+[debug] [2024-12-23T12:36:52.505Z] Time:          Mon Dec 23 2024 18:06:52 GMT+0530 (India Standard Time)
+[debug] [2024-12-23T12:36:52.508Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-23T12:36:52.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-23T12:36:52.977Z] > authorizing via signed-in user (saniyasiddiqui56505@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2024-12-23T12:36:52.997Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:52.998Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:53.003Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market [none]
+[debug] [2024-12-23T12:36:55.456Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market 403
+[debug] [2024-12-23T12:36:55.457Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[error] !!  extensions: Unable to look up project number for khet-market.
+ If this is a real project, ensure that you are logged in and have access to it.
+ If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.
+ Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly. {"metadata":{"emulator":{"name":"extensions"},"message":"Unable to look up project number for khet-market.\n If this is a real project, ensure that you are logged in and have access to it.\n If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.\n Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly."}}
+[debug] [2024-12-23T12:36:55.514Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T12:36:55.515Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T12:36:55.516Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-12-23T12:36:55.526Z] [hub] writing locator at C:\Users\pranjal gupta\AppData\Local\Temp\hub-khet-market.json
+[debug] [2024-12-23T12:36:55.547Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-12-23T12:36:55.570Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T12:36:55.570Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T12:36:55.571Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T12:36:55.572Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-23T12:36:55.582Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-23T12:36:55.590Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-23T12:36:55.592Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:55.593Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:55.593Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig [none]
+[debug] [2024-12-23T12:36:56.533Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig 403
+[debug] [2024-12-23T12:36:56.534Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T12:36:56.535Z] Failed to get Admin SDK config for khet-market, falling back to cache Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}},"response":{"statusCode":403}},"exit":1,"message":"Request to https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig had HTTP Error: 403, The caller does not have permission","status":403},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[debug] [2024-12-23T12:36:56.589Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:56.590Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:56.596Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites 
+[debug] [2024-12-23T12:36:58.339Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites 404
+[debug] [2024-12-23T12:36:58.339Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites {"error":{"code":404,"message":"project `khet-market` doesn't exist","status":"NOT_FOUND"}}
+[debug] [2024-12-23T12:36:58.340Z] Failed to list hosting sites
+[debug] Request to https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites had HTTP Error: 404, project `khet-market` doesn't exist
+[debug] [2024-12-23T12:36:58.342Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:58.342Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:58.343Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config [none]
+[debug] [2024-12-23T12:36:58.932Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config 403
+[debug] [2024-12-23T12:36:58.933Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T12:36:58.934Z] fetchWebSetup error: FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config had HTTP Error: 403, The caller does not have permission
+[warn] !  hosting: Authentication error when trying to fetch your current web app configuration, have you run firebase login? 
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[debug] [2024-12-23T12:36:58.943Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:58.943Z] Checked if tokens are valid: true, expires at: 1734959542975
+[debug] [2024-12-23T12:36:58.945Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market [none]
+[debug] [2024-12-23T12:36:59.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market 403
+[debug] [2024-12-23T12:36:59.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T12:36:59.622Z] Request to https://firebase.googleapis.com/v1beta1/projects/khet-market had HTTP Error: 403, The caller does not have permission
+[debug] [2024-12-23T12:36:59.628Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "khet-market" may fail or be empty.
+[info] i  hosting[khet-market]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[khet-market]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-12-23T12:36:59.799Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\" for Cloud Functions..."}}
+[debug] [2024-12-23T12:36:59.873Z] Validating nodejs source
+[debug] [2024-12-23T12:37:07.037Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.2.0",
+    "stripe": "^8.142.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-12-23T12:37:07.039Z] Building nodejs source
+[debug] [2024-12-23T12:37:07.040Z] Failed to find version of module node: reached end of search path C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-12-23T12:37:07.049Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-12-23T12:37:07.073Z] Found firebase-functions binary at 'C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8255
+
+[debug] [2024-12-23T12:37:10.846Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2024-12-23T12:37:15.967Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-23T12:37:15.970Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/khet-market/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/khet-market/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-12-23T12:41:05.759Z] [work-queue] {"queuedWork":["/khet-market/us-central1/api/payments/create-2024-12-23T12:41:05.758Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-23T12:41:05.759Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/khet-market/us-central1/api/payments/create-2024-12-23T12:41:05.758Z"],"workRunningCount":1}
+[debug] [2024-12-23T12:41:05.760Z] Accepted request POST /khet-market/us-central1/api/payments/create?total=40000 --> us-central1-api
+[debug] [2024-12-23T12:41:05.762Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-12-23T12:41:05.763Z] [functions] Got req.url=/khet-market/us-central1/api/payments/create?total=40000, mapping to path=/payments/create?total=40000 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/khet-market/us-central1/api/payments/create?total=40000, mapping to path=/payments/create?total=40000"}}
+[debug] [2024-12-23T12:41:05.796Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-12-23T12:41:05.798Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2024-12-23T12:41:10.434Z] [runtime-status] [8908] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.0.2","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.0.2\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:10.437Z] [runtime-status] [8908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:10.438Z] [runtime-status] [8908] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-12-23T12:41:10.440Z] [runtime-status] [8908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:11.491Z] [runtime-status] [8908] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-12-23T12:41:11.492Z] [runtime-status] [8908] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2024-12-23T12:41:11.494Z] [runtime-status] [8908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:11.508Z] [runtime-status] [8908] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.0.2","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.0.2\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:11.520Z] [runtime-status] [8908] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2024-12-23T12:41:11.521Z] [runtime-status] [8908] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"13.0.2","resolution":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"13.0.2\",\"resolution\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-12-23T12:41:12.030Z] [runtime-status] [8908] Functions runtime initialized. {"cwd":"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions","node_version":"20.8.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\pranjal gupta\\\\Desktop\\\\3rd year project\\\\Khet-Market\\\\functions\",\"node_version\":\"20.8.0\"}"}}
+[debug] [2024-12-23T12:41:12.031Z] [runtime-status] [8908] Listening to port: \\?\pipe\fire_emu_ac73151e0ebee2ac {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8908] Listening to port: \\\\?\\pipe\\fire_emu_ac73151e0ebee2ac"}}
+[debug] [2024-12-23T12:41:12.054Z] [worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: IDLE"}}
+[debug] [2024-12-23T12:41:12.056Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-12-23T12:41:12.060Z] [worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: BUSY"}}
+[debug] [2024-12-23T12:41:13.128Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1068.8806ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1068.8806ms"}}
+[debug] [2024-12-23T12:41:13.131Z] [worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: IDLE"}}
+[debug] [2024-12-23T12:41:13.132Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-12-23T12:41:13.133Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-12-23T12:41:13.134Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-12-23T14:50:57.108Z] [worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-451f444e-4497-464f-9b5f-02a1c0b73d8a]: exited"}}
+[debug] [2024-12-23T15:06:56.789Z] ----------------------------------------------------------------------
+[debug] [2024-12-23T15:06:56.807Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-23T15:06:56.810Z] CLI Version:   13.29.1
+[debug] [2024-12-23T15:06:56.812Z] Platform:      win32
+[debug] [2024-12-23T15:06:56.813Z] Node Version:  v20.8.0
+[debug] [2024-12-23T15:06:56.814Z] Time:          Mon Dec 23 2024 20:36:56 GMT+0530 (India Standard Time)
+[debug] [2024-12-23T15:06:56.815Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-23T15:06:57.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-23T15:06:57.336Z] > authorizing via signed-in user (saniyasiddiqui56505@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2024-12-23T15:06:57.365Z] Checked if tokens are valid: false, expires at: 1734959542975
+[debug] [2024-12-23T15:06:57.366Z] Checked if tokens are valid: false, expires at: 1734959542975
+[debug] [2024-12-23T15:06:57.368Z] > refreshing access token with scopes: []
+[debug] [2024-12-23T15:06:57.379Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-23T15:06:57.380Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-23T15:06:58.112Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-23T15:06:58.113Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-23T15:06:58.147Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market [none]
+[debug] [2024-12-23T15:07:00.469Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market 403
+[debug] [2024-12-23T15:07:00.470Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/khet-market {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[error] !!  extensions: Unable to look up project number for khet-market.
+ If this is a real project, ensure that you are logged in and have access to it.
+ If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.
+ Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly. {"metadata":{"emulator":{"name":"extensions"},"message":"Unable to look up project number for khet-market.\n If this is a real project, ensure that you are logged in and have access to it.\n If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.\n Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly."}}
+[debug] [2024-12-23T15:07:00.528Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T15:07:00.528Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T15:07:00.529Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project khet-market. This may result in unexpected behavior. 
+[debug] [2024-12-23T15:07:00.587Z] [hub] writing locator at C:\Users\pranjal gupta\AppData\Local\Temp\hub-khet-market.json
+[debug] [2024-12-23T15:07:00.700Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-12-23T15:07:00.787Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T15:07:00.787Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T15:07:00.788Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-23T15:07:00.788Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-23T15:07:00.816Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-23T15:07:00.830Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-23T15:07:00.832Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:00.832Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:00.833Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig [none]
+[debug] [2024-12-23T15:07:01.875Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig 403
+[debug] [2024-12-23T15:07:01.876Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T15:07:01.877Z] Failed to get Admin SDK config for khet-market, falling back to cache Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}},"response":{"statusCode":403}},"exit":1,"message":"Request to https://firebase.googleapis.com/v1beta1/projects/khet-market/adminSdkConfig had HTTP Error: 403, The caller does not have permission","status":403},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[debug] [2024-12-23T15:07:01.924Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:01.925Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:01.928Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites 
+[debug] [2024-12-23T15:07:03.470Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites 404
+[debug] [2024-12-23T15:07:03.470Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites {"error":{"code":404,"message":"project `khet-market` doesn't exist","status":"NOT_FOUND"}}
+[debug] [2024-12-23T15:07:03.471Z] Failed to list hosting sites
+[debug] Request to https://firebasehosting.googleapis.com/v1beta1/projects/khet-market/sites had HTTP Error: 404, project `khet-market` doesn't exist
+[debug] [2024-12-23T15:07:03.471Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:03.472Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:03.472Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config [none]
+[debug] [2024-12-23T15:07:04.479Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config 403
+[debug] [2024-12-23T15:07:04.479Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T15:07:04.480Z] fetchWebSetup error: FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/khet-market/webApps/-/config had HTTP Error: 403, The caller does not have permission
+[warn] !  hosting: Authentication error when trying to fetch your current web app configuration, have you run firebase login? 
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[debug] [2024-12-23T15:07:04.489Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:04.489Z] Checked if tokens are valid: true, expires at: 1734970017114
+[debug] [2024-12-23T15:07:04.491Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/khet-market [none]
+[debug] [2024-12-23T15:07:05.175Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/khet-market 403
+[debug] [2024-12-23T15:07:05.176Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/khet-market {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-12-23T15:07:05.177Z] Request to https://firebase.googleapis.com/v1beta1/projects/khet-market had HTTP Error: 403, The caller does not have permission
+[debug] [2024-12-23T15:07:05.182Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "khet-market" may fail or be empty.
+[info] i  hosting[khet-market]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[khet-market]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-12-23T15:07:05.288Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\" for Cloud Functions..."}}
+[debug] [2024-12-23T15:07:05.317Z] Validating nodejs source
+[debug] [2024-12-23T15:07:10.403Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.2.0",
+    "stripe": "^8.142.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-12-23T15:07:10.404Z] Building nodejs source
+[debug] [2024-12-23T15:07:10.405Z] Failed to find version of module node: reached end of search path C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-12-23T15:07:10.415Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-12-23T15:07:10.442Z] Found firebase-functions binary at 'C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8698
+
+[debug] [2024-12-23T15:07:15.131Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2024-12-23T15:07:20.254Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-23T15:07:20.256Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/khet-market/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/khet-market/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-12-24T03:42:17.266Z] ----------------------------------------------------------------------
+[debug] [2024-12-24T03:42:17.272Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-24T03:42:17.273Z] CLI Version:   13.29.1
+[debug] [2024-12-24T03:42:17.273Z] Platform:      win32
+[debug] [2024-12-24T03:42:17.273Z] Node Version:  v20.8.0
+[debug] [2024-12-24T03:42:17.275Z] Time:          Tue Dec 24 2024 09:12:17 GMT+0530 (India Standard Time)
+[debug] [2024-12-24T03:42:17.275Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-24T03:42:17.527Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-24T03:42:17.529Z] > authorizing via signed-in user (saniyasiddiqui56505@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2024-12-24T03:42:17.543Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.544Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.545Z] > refreshing access token with scopes: []
+[debug] [2024-12-24T03:42:17.550Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-24T03:42:17.551Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-24T03:42:17.694Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------231757555940390923018619","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[error] !!  extensions: Unable to look up project number for khet-market.
+ If this is a real project, ensure that you are logged in and have access to it.
+ If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.
+ Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly. {"metadata":{"emulator":{"name":"extensions"},"message":"Unable to look up project number for khet-market.\n If this is a real project, ensure that you are logged in and have access to it.\n If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.\n Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly."}}
+[debug] [2024-12-24T03:42:17.712Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-24T03:42:17.713Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-24T03:42:17.714Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project khet-market. This may result in unexpected behavior. 
+[debug] [2024-12-24T03:42:17.725Z] [hub] writing locator at C:\Users\pranjal gupta\AppData\Local\Temp\hub-khet-market.json
+[debug] [2024-12-24T03:42:17.781Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-12-24T03:42:17.793Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-24T03:42:17.793Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-24T03:42:17.793Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-24T03:42:17.793Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-24T03:42:17.800Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-24T03:42:17.806Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-24T03:42:17.807Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.808Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.808Z] > refreshing access token with scopes: []
+[debug] [2024-12-24T03:42:17.809Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-24T03:42:17.809Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-24T03:42:17.815Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------103256502795119853955316","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.817Z] Failed to get Admin SDK config for khet-market, falling back to cache Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project khet-market. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Authentication Error: Your credentials are no longer valid. Please run \u001b[1mfirebase login --reauth\u001b[22m\n\nFor CI servers and headless environments, generate a new token with \u001b[1mfirebase login:ci\u001b[22m","status":500},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[debug] [2024-12-24T03:42:17.849Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.851Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.851Z] > refreshing access token with scopes: []
+[debug] [2024-12-24T03:42:17.852Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-24T03:42:17.852Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-24T03:42:17.858Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------345471037121383201571694","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.859Z] Failed to list hosting sites
+[debug] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.860Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.860Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.860Z] > refreshing access token with scopes: []
+[debug] [2024-12-24T03:42:17.860Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-24T03:42:17.860Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-24T03:42:17.865Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------001922409956938127415533","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.867Z] fetchWebSetup error: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[debug] [2024-12-24T03:42:17.870Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.871Z] Checked if tokens are valid: false, expires at: 1734970017114
+[debug] [2024-12-24T03:42:17.871Z] > refreshing access token with scopes: []
+[debug] [2024-12-24T03:42:17.871Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-24T03:42:17.872Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-24T03:42:17.875Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------399251425950044574979666","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: getaddrinfo ENOTFOUND www.googleapis.com
+[error] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.876Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2024-12-24T03:42:17.878Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "khet-market" may fail or be empty.
+[info] i  hosting[khet-market]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[khet-market]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-12-24T03:42:17.935Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\pranjal gupta\\Desktop\\3rd year project\\Khet-Market\\functions\" for Cloud Functions..."}}
+[debug] [2024-12-24T03:42:17.947Z] Validating nodejs source
+[debug] [2024-12-24T03:42:27.998Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1124:20)
+    at Object.spawnSync (node:child_process:876:24)
+    at Function.spawnSync [as sync] (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+    at async FunctionsEmulator.connect (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:297:13)
+    at async Object.startAll (C:\Users\pranjal gupta\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:671:13)
+[debug] [2024-12-24T03:42:28.000Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.2.0",
+    "stripe": "^8.142.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-12-24T03:42:28.001Z] Building nodejs source
+[debug] [2024-12-24T03:42:28.002Z] Failed to find version of module node: reached end of search path C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-12-24T03:42:28.011Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-12-24T03:42:28.030Z] Found firebase-functions binary at 'C:\Users\pranjal gupta\Desktop\3rd year project\Khet-Market\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8842
+
+[debug] [2024-12-24T03:42:30.555Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2024-12-24T03:42:35.638Z] defaultcredentials: writing to file C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json
+[debug] [2024-12-24T03:42:35.639Z] Setting GAC to C:\Users\pranjal gupta\AppData\Roaming\firebase\saniyasiddiqui56505_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\pranjal gupta\\AppData\\Roaming\\firebase\\saniyasiddiqui56505_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/khet-market/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/khet-market/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
