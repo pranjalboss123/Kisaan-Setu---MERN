@@ -8,32 +8,7 @@ import { useStateValue } from '../../StateProvider';
 
 const Login = () => {
 
-    // useEffect(() => {
-    //     const checkTidioAPI = () => {
-    //         if (window.tidioChatApi) {
-    //             console.log("Tidio API is available.");
-
-    //             // Check if the clear method is available
-    //             if (typeof window.tidioChatApi.reset === 'function') {
-    //                 console.log("Resetting Tidio Chatbot...");
-    //                 window.tidioChatApi.reset(); // Clear the chatbot conversation
-    //             } else {
-    //                 console.log("clear() method is not available.");
-    //             }
-
-    //             // Clear the interval since the API is available
-    //             clearInterval(timer);
-    //         } else {
-    //             console.log("Tidio API is not available yet.");
-    //         }
-    //     };
-
-    //     // Check for Tidio API availability every second
-    //     const timer = setInterval(checkTidioAPI, 1000);
-
-    //     // Cleanup the interval on unmount
-    //     return () => clearInterval(timer);
-    // }, []);
+    
 
     const [{ basket }, dispatch] = useStateValue();
 
